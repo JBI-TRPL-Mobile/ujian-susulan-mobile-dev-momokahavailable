@@ -10,7 +10,6 @@ class WelcomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Profile Image Placeholder
             CircleAvatar(
               radius: 50,
               backgroundColor: Colors.grey.shade300,
@@ -21,9 +20,9 @@ class WelcomeScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20),
-            // Title Text
+
             Text(
-              "Welcome User",
+              "Hallo User!",
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
@@ -31,16 +30,14 @@ class WelcomeScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 10),
-            // Subtitle Text
             Text(
-              "Your personalized experience",
+              "Pengalaman Pribadi Anda!",
               style: GoogleFonts.poppins(
                 fontSize: 16,
                 color: Colors.grey.shade600,
               ),
             ),
             SizedBox(height: 30),
-            // Indicator Dots
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -52,11 +49,10 @@ class WelcomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      // Top Bar
       appBar: AppBar(
         backgroundColor: Colors.grey.shade900,
         title: Text(
-          "APP NAME",
+          "Update Nilai",
           style: GoogleFonts.poppins(fontSize: 18, fontWeight: FontWeight.w500),
         ),
         centerTitle: true,
