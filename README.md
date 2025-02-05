@@ -10,4 +10,13 @@ Ini adalah hasil dari tugas ini beserta contoh screenshootnya :
 -**Wellcome Screen**
 
 Tampilan Wellcome Screen
-![](assets/images/w.png)
+![](assets/images/we.png)
+
+Tampilan Register Screen
+![](assets/images/re.png)
+
+Tampilan Example Screen
+![](assets/images/ex.png)
+
+Tampilan Confirmation Profile Screen
+![](assets/images/co.png)
